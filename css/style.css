@@ -188,6 +188,9 @@ body, html {
   list-style: none;
   counter-reset: compteListe;
 }
+.tuto__steps :hover {
+  background-color: #ffd3f3;
+}
 @media (min-width: 64rem) {
   .tuto__steps {
     display: flex;
@@ -438,8 +441,6 @@ body, html {
 .menuItem__title {
   margin: 0;
   white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 .menuItem__description {
   margin: 0;
@@ -475,7 +476,7 @@ body, html {
   justify-content: center;
   border-radius: 100px;
   transform: rotate(180deg);
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
 }
 .menuItem:hover .menuItem__wrapIcon {
   transform: rotate(0);

@@ -143,8 +143,6 @@
     &__title {
       margin: 0;
       white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
     }
   
     &__description {
@@ -185,7 +183,7 @@
       justify-content:center;
       border-radius: 100px;
       transform: rotate(180deg);
-      transition-duration: 0.5s;
+      transition-duration: 0.8s;
   
     }
   
