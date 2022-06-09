@@ -99,7 +99,7 @@
   
   .submenus {
     display: grid;
-  
+      
     @media (min-width:64rem) {
       grid-template-columns: repeat(3,1fr);
       column-gap: 1rem;
@@ -107,6 +107,7 @@
   }
   
   .submenu {
+    min-width: 100%;
     &__title {
       text-transform: uppercase;
       position: relative;
@@ -140,11 +141,19 @@
     transform: scale(0);
     max-width: 100%;
   
+    &__text{
+      min-width: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
     &__title {
       margin: 0;
       white-space: nowrap;
     }
   
+       
     &__description {
       margin: 0;
       white-space: nowrap;

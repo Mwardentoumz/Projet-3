@@ -407,6 +407,9 @@ body, html {
   }
 }
 
+.submenu {
+  min-width: 100%;
+}
 .submenu__title {
   text-transform: uppercase;
   position: relative;
@@ -437,6 +440,12 @@ body, html {
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+}
+.menuItem__text {
+  min-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menuItem__title {
   margin: 0;
