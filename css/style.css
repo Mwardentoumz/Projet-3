@@ -34,7 +34,7 @@ body, html {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1980px;
   margin: auto;
   position: relative;
 }
@@ -189,7 +189,7 @@ body, html {
   counter-reset: compteListe;
 }
 .tuto__steps :hover {
-  background-color: #ffd3f3;
+  background-color: #f2eafb;
   box-shadow: 1rem 0.25rem 0.5rem rgba(0, 0, 0, 0.42);
 }
 @media (min-width: 64rem) {

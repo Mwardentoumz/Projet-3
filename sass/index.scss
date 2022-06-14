@@ -93,7 +93,7 @@
     list-style: none;
     counter-reset: compteListe;
     :hover{
-      background-color: #ffd3f3;
+      background-color: lighten($color: #9356DC, $amount: 35%);
       box-shadow: 1rem 0.25rem 0.5rem rgba(0, 0, 0, 0.42);
 
     }
