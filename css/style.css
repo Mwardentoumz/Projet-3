@@ -144,6 +144,11 @@ body, html {
 }
 .local__text {
   font-weight: 700;
+  background: transparent;
+  border: none;
+  font-family: Roboto;
+  font-size: large;
+  width: 35%;
 }
 
 .hero {
@@ -338,7 +343,7 @@ body, html {
 }
 
 .menu {
-  margin-top: 0rem;
+  margin-top: -8rem;
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
   z-index: 1;
